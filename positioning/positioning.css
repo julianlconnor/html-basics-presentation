@@ -9,6 +9,11 @@
     right: 0;
     padding: 10px 0;
 }
+.relative,
+.absolute,
+.fixed {
+    font-size: 30px;
+}
 
 p { 
     font-size: 18px;

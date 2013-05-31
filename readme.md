@@ -82,5 +82,34 @@ Some CSS properties are inherited by the children of elements by default. For ex
 In html, each `tag`/`element` is represented as a rectangular box. Determining the size, properties — like its color, background, borders aspect — and the position of these boxes is the goal of the rendering engine (browser).
 ![Box Model](https://developer.mozilla.org/files/72/boxmodel%20(1).png)
 
-Refer to the mdn box model page.
+Refer to [this](https://developer.mozilla.org/en-US/docs/Web/CSS/box_model)
+
+# Web Inspector
+Throme web inspector is an engineer's best friend. It allows you pick apart the internals of any web page. Via the web inspector, you can test out new styles, move things around, delete html, etc..
+
+Let's play around with it.
+
+# But wait..
+This is all cool except for the fact that we don't know how to put anything anywhere.
+
+In CSS there are lots of ways to position things but let's focus on `positioning` and `floating`.
+
+## Position
+In css, elements can be positioned `relative`, `absolute`, or `fixed`. Each one of these positioning rules accepts `top`, `left`, `bottom`, and `right` rules.
+
+### Absolute
+Position it at a specified position relative to its closest positioned ancestor or to the containing block. Emphasis on relative to its closest positioned ancestor.
+### Relative
+Lay out all elements as though the element were not positioned, and then adjust the element's position, without changing layout (and thus leaving a gap for the element where it would have been had it not been positioned
+### Fixed
+Position it at a specified position relative to the screen's viewport and doesn't move when scrolled.
+
+Let's take a look at positioning.html. Let's move the absolutely positioned element halfway down the screen.
+
+## Float
+The float CSS property specifies that an element should be taken from the normal flow and placed along the left or right side of its container, where text and inline elements will wrap around it.
+
+Refer to [this](http://css-tricks.com/all-about-floats/).
+
+Let's float some stuff.
 

@@ -1,0 +1,16 @@
+.relative { position: relative; }
+.absolute { position: absolute; }
+.fixed { 
+    position: fixed; 
+    background-color: blue;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+}
+
+p { 
+    font-size: 18px;
+    margin-bottom: 15px;
+}

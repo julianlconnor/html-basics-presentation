@@ -1,0 +1,13 @@
+.float_left { float: left; }
+.float_right { float: right; }
+
+.float_left,
+.float_right {
+    padding: 5px;
+    margin: 0 10px;
+    border: 2px solid #000;
+}
+
+body {
+    font-size: 30px;
+}
